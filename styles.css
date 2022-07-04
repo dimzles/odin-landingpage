@@ -56,6 +56,11 @@ a {
     color: #F9FaF8;
     justify-content: flex-start;
     padding-right: 32px;
+    padding-bottom: 4px;
+}
+
+.hero-text {
+    padding-bottom: 8px;
 }
 
 .hero-img {
@@ -109,4 +114,30 @@ button {
 .container img {
     width: 100px;
     height: 100px;
+}
+
+.two {
+    display: flex;
+    background-color: #e5e7eB;
+    flex-direction: column;
+    padding: 64px 256px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 16px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
 }
