@@ -1,7 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
-    height: 100vh;
     display: flex;
+    flex: 1;
     flex-direction: column;
     margin: 0;
 }
@@ -35,4 +35,78 @@ ul {
 a {
     text-decoration: none;
     color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    background-color: #1F2937;
+    padding: 0 340px 16px 340px;
+    gap: 64px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+    justify-content: flex-start;
+    padding-right: 32px;
+}
+
+.hero-img {
+    justify-content: center;
+    display: flex;
+    align-self: stretch;
+    flex: 1;
+    width: auto;
+    height: auto;
+}
+
+.hero-img img {
+    width: 600px;
+    height: 200px;
+    flex: 1;
+}
+
+button {
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.hero-button {
+    border-style: none;
+    padding: 4px 16px;
+}
+
+.one-title {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.container {
+    max-width: 150px;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
 }
